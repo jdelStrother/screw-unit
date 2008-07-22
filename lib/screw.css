@@ -47,12 +47,14 @@ html {
 
       .describes .describe .its {}
 
-        .describes .describe .its .it {
+        .describes .describe .its .it,
+        .describes .describe .its .pending {
           list-style-type: lower-roman;
           list-style-position: outside;
         }
 
-          .describes .describe .its .it h2 {
+          .describes .describe .its .it h2,
+          .describes .describe .its .pending h2 {
             font-weight: normal;
             font-style: italic;
             padding-left: 0.5em;

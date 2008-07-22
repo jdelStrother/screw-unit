@@ -5,6 +5,8 @@ Screw.Unit(function() {
   
   describe('Behaviors', function() {
     describe('#run', function() {
+      it("shouldn't run pending specs");
+
       describe("a simple [describe]", function() {
         it("invokes the global [before] before an [it]", function() {
           expect(global_before_invoked).to(equal, true);
